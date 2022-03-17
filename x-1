@@ -1,0 +1,15 @@
+Title; x-1 if x>0 else 0
+Author; Joel Sleeba
+Compiler; sites.oxy.edu/rnaimi/home/URMsim.htm
+Input registers; x, 0, 0, ...
+Output registers; q, x-1, x, ...
+    where q is x-1 if x>0 else 0
+          
+
+1:J(1,4,8)
+2:S(2)
+3:J(1,2,7)
+4:S(2)
+5:S(3)
+6:J(1,1,3)
+7:T(3,1)

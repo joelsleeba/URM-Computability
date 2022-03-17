@@ -1,0 +1,19 @@
+Title; Division Algorithm for Natural Numbers
+Author; Joel Sleeba
+Compiler; sites.oxy.edu/rnaimi/home/URMsim.htm
+Input registers; x, y, 0, 0, 0, ...
+Output registers; q, y, r, q, r+yq
+    where q is x//y
+          r is x%y
+          r+yq equals x
+
+1:J(1,5,10)
+2:J(2,3,7)
+3:J(1,5,10)
+4:S(5)
+5:S(3)
+6:J(1,1,2)
+7:Z(3)
+8:S(4)
+9:J(1,1,1)
+10:T(4,1)
