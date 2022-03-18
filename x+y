@@ -1,0 +1,11 @@
+Title; x+y
+Author; Joel Sleeba
+Compiler; sites.oxy.edu/rnaimi/home/URMsim.htm
+Input registers; x, y, 0, ...
+Output registers; x+y, y, y, ...
+
+
+1:J(2,3,5)
+2:S(1)
+3:S(3)
+4:J(1,1,1)
